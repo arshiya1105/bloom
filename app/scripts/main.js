@@ -1,9 +1,17 @@
-console.log('\'Allo \'Allo!');
+$(document).ready(function() {
+  $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+  });
+});
 
-// Uncomment to enable Bootstrap tooltips
-// https://getbootstrap.com/docs/4.0/components/tooltips/#example-enable-tooltips-everywhere
-// $(function () { $('[data-toggle="tooltip"]').tooltip(); });
+// Scrolling Effect
 
-// Uncomment to enable Bootstrap popovers
-// https://getbootstrap.com/docs/4.0/components/popovers/#example-enable-popovers-everywhere
-// $(function () { $('[data-toggle="popover"]').popover(); });
+// $(window).on("scroll", function() {
+//   if($(window).scrollTop()) {
+//         $('nav').addClass('black');
+//   }
+
+//   else {
+//         $('nav').removeClass('black');
+//   }
+// })
