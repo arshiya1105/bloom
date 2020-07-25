@@ -1,8 +1,18 @@
 // nov footer coomn styles
+body{
+  .main{
+    background-color:#ffe0f7;
+  }
+  .col{
+    padding: 20px;
+  }
+
 nav {
   // position: fixed;
   width: 100%;
   line-height: 60px;
+  background-color: #251f44;
+  padding-bottom: 20px;
 }
 
 nav ul {
@@ -10,8 +20,6 @@ nav ul {
   list-style: none;
   background: rgba(194, 157, 157, 0);
   overflow: hidden;
-  color:#8cba51;
-  padding: 0;
   text-align: center;
   margin: 0;
   padding-left: 0px;
@@ -21,8 +29,8 @@ nav ul {
 nav.black ul {
   background: #000;
 }
-a{
-  color:#7183e6;
+nav li a{
+  color:#f5a1d6;
 font-weight: 600;
 }
 a:hover {
@@ -31,12 +39,14 @@ a:hover {
 }
 nav ul li {
   display: inline-block;
-  padding: 16px 40px;;
+  padding: 16px 40px;
+  list-style: none;
 }
 
 nav ul li a {
   text-decoration: none;
   font-size: 16px;
+
 }
 
 .menu-icon {
@@ -81,26 +91,22 @@ nav ul li a {
 
 }
 
-
-
-
-body{
-.main{
-  background-color:white;
+h1, h2, h3{
+  color: #251f44;
 }
-.col{
-  padding: 20px;
-}
-
 
 // fotter styles
 
+.footer-top .container{
+  padding-top: 50px;
+}
+
 .footer-bottom{
-  color: #7183e6;
+  color:#251f44 ;
 }
 
 .footer-top{
-  color:#7183e6;
+  color:#251f44;
 }
 
 .logo-footer{
@@ -113,6 +119,9 @@ padding-left:  50px;
   padding: 40px;
 }
 
+a{
+  color: #251f44;
+}
 // footer end
 
 .founders{
@@ -143,7 +152,23 @@ font-style: italic
 }
 
 
-h1, h2, h3{
-  color: #7183e6;
+// commom styles end
+
+.ima{
+  padding: 100px;
+}
+li {
+  list-style: none;
+}
+.para{
+  padding-left: 25px;
 }
 
+
+// carsoul styles
+
+#carouselExampleSlidesOnly{
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
