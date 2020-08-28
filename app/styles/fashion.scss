@@ -266,3 +266,13 @@ p{
   font-weight: bolder;
 }
 }
+// beatycare product page
+
+.carousel{
+  background: white;
+  margin-top: 20px;
+}
+.carousel-item{
+  text-align: center;
+  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
